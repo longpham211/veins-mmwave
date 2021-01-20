@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<AnalogueModels>
+      	<AnalogueModel type="SimpleObstacleShadowing" thresholding="true">
+            <obstacles>
+                <type id="building" db-per-cut="0" db-per-meter="1470" />
+                <type id="forest" db-per-cut="7.125" db-per-meter="1.25" />
+                <type id="tree" db-per-cut="7.125" db-per-meter="0" />
+                <type id="metal" db-per-cut="10000" db-per-meter="10000" />
+                
+                <type id="natural" db-per-cut="0" db-per-meter="0" />
+                <type id="water" db-per-cut="0" db-per-meter="0" />
+                
+                <type id="land" db-per-cut="100" db-per-meter="0" />
+                
+                <type id="park" db-per-cut="100" db-per-meter="0" />
+                <type id="residential" db-per-cut="100" db-per-meter="0" />
+                <type id="commercial" db-per-cut="100" db-per-meter="0" />
+                <type id="industrial" db-per-cut="100" db-per-meter="0" />
+                <type id="military" db-per-cut="100" db-per-meter="0" />
+                <type id="farm" db-per-cut="100" db-per-meter="0" />
+                
+                <type id="tourism" db-per-cut="100" db-per-meter="0" />
+                <type id="military" db-per-cut="100" db-per-meter="0" />
+                <type id="sport" db-per-cut="100" db-per-meter="0" />
+                <type id="leisure" db-per-cut="100" db-per-meter="0" />
+                <type id="aeroway" db-per-cut="100" db-per-meter="0" />
+                <type id="aerialway" db-per-cut="100" db-per-meter="0" />
+                <type id="services" db-per-cut="100" db-per-meter="0" />
+                
+                <type id="shop" db-per-cut="100" db-per-meter="0" />
+                <type id="historic" db-per-cut="100" db-per-meter="0" />
+                <type id="man_made" db-per-cut="100" db-per-meter="0" />
+                <type id="pipeline" db-per-cut="100" db-per-meter="0" />
+                <type id="amenity" db-per-cut="100" db-per-meter="0" />
+                <type id="parking" db-per-cut="100" db-per-meter="0" />
+                <type id="power" db-per-cut="100" db-per-meter="0" />
+                <type id="highway" db-per-cut="0" db-per-meter="0" />
+
+                <type id="boundary" db-per-cut="0" db-per-meter="0" />
+                <type id="admin_level" db-per-cut="0" db-per-meter="0" />
+                	
+            </obstacles>
+        </AnalogueModel> 
+    	<AnalogueModel type="VehicleObstacleShadowingMmWave" thresholding="true"/>
+    	     
+	</AnalogueModels>
+	
+	<Decider type="Decider80211ad">
+		<!-- The center frequency on which the phy listens-->
+		<parameter name="centerFrequency" type="double" value="60.48e9"/>
+	</Decider>
+	
+	<!-- Here we can add multiple antennas-->
+	<Antenna type="AntennaArray" id="0">
+			<parameter name="beamSectorPatternFolder" type="string" value="./map_az_snr/"/>
+			<parameter name="mcsMap" type="string" value="./MCSMap.csv"/>
+	</Antenna>
+</root>

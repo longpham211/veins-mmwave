@@ -1,0 +1,491 @@
+<routes>
+   	<vType id="pkw_ohne_anhaenger" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="5.091" width="1.902" height="1.538" minGap="2.5" maxSpeed="36.11" guiShape="passenger"/>
+   	<vType id="lieferwagen_ohne_anhaenger" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="4.405" width="1.802" height="1.833" minGap="2.5" maxSpeed="36.11" guiShape="passenger/van"/>
+   	<vType id="motorraedder" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="2.056" width="0.826" height="1.138" minGap="2.5" maxSpeed="36.11" guiShape="motorcycle"/>
+
+	<vType id="pkw_mit_anhaenger" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="7" width="1.902" height="1.538" minGap="2.5" maxSpeed="36.11" guiShape="delivery"/>
+   	<vType id="busse" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="18.125" width="2.55" height="3.13" minGap="2.5" maxSpeed="36.11" guiShape="bus"/>
+	<vType id="lkw_ohne_anhaenger" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="6.867" width="2.487" height="3" minGap="2.5" maxSpeed="36.11" guiShape="truck"/>
+	<vType id="sattelkraftfahrzeuge" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="13.467" width="2.487" height="3" minGap="2.5" maxSpeed="36.11" guiShape="truck/semitrailer"/>
+	<vType id="lkw_mit_anhaenger" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="10.167" width="2.487" height="3" minGap="2.5" maxSpeed="36.11" guiShape="truck/trailer"/>
+   	<vType id="nicht_klassifizierbare_Kfz" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="5.091" width="1.902" height="1.538" minGap="2.5" maxSpeed="36.11" guiShape="evehicle"/>
+
+	<route id="s2n" edges="234004934 472487832#0 472487832#1 51219147"/>
+	<route id="n2s" edges="284791345 201909623#0 201909623#1 388248005"/>
+
+	<flow id="s2n_r1_180806_01" begin="0.07" end="3600.07" vehsPerHour="263" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_01" begin="0.14" end="3600.14" vehsPerHour="28" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_01" begin="0.21" end="3600.21" vehsPerHour="2" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_01" begin="0.28" end="3600.28" vehsPerHour="7" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_01" begin="0.35" end="3600.35" vehsPerHour="5" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_01" begin="0.42" end="3600.42" vehsPerHour="28" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_01" begin="0.49" end="3600.49" vehsPerHour="61" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_01" begin="0.56" end="3600.56" vehsPerHour="22" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_01" begin="0.63" end="3600.63" vehsPerHour="3" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_01" begin="0.7" end="3600.7" vehsPerHour="473" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_01" begin="0.77" end="3600.77" vehsPerHour="55" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_01" begin="0.84" end="3600.84" vehsPerHour="2" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_01" begin="0.91" end="3600.91" vehsPerHour="9" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_01" begin="0.98" end="3600.98" vehsPerHour="7" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_01" begin="1.05" end="3601.05" vehsPerHour="21" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_01" begin="1.12" end="3601.12" vehsPerHour="66" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_01" begin="1.19" end="3601.19" vehsPerHour="25" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_01" begin="1.26" end="3601.26" vehsPerHour="12" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_02" begin="3600.07" end="7200.07" vehsPerHour="141" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_02" begin="3600.14" end="7200.14" vehsPerHour="26" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r4_180806_02" begin="3600.28" end="7200.28" vehsPerHour="4" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_02" begin="3600.35" end="7200.35" vehsPerHour="4" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_02" begin="3600.42" end="7200.42" vehsPerHour="16" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_02" begin="3600.49" end="7200.49" vehsPerHour="62" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_02" begin="3600.56" end="7200.56" vehsPerHour="14" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_02" begin="3600.63" end="7200.63" vehsPerHour="5" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_02" begin="3600.7" end="7200.7" vehsPerHour="216" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_02" begin="3600.77" end="7200.77" vehsPerHour="38" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_02" begin="3600.84" end="7200.84" vehsPerHour="2" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_02" begin="3600.91" end="7200.91" vehsPerHour="6" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_02" begin="3600.98" end="7200.98" vehsPerHour="5" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_02" begin="3601.05" end="7201.05" vehsPerHour="24" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_02" begin="3601.12" end="7201.12" vehsPerHour="129" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_02" begin="3601.19" end="7201.19" vehsPerHour="42" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_02" begin="3601.26" end="7201.26" vehsPerHour="1" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_03" begin="7200.07" end="10800.07" vehsPerHour="120" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_03" begin="7200.14" end="10800.14" vehsPerHour="23" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_03" begin="7200.21" end="10800.21" vehsPerHour="2" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_03" begin="7200.28" end="10800.28" vehsPerHour="2" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_03" begin="7200.35" end="10800.35" vehsPerHour="4" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_03" begin="7200.42" end="10800.42" vehsPerHour="26" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_03" begin="7200.49" end="10800.49" vehsPerHour="59" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_03" begin="7200.56" end="10800.56" vehsPerHour="16" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_03" begin="7200.63" end="10800.63" vehsPerHour="2" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_03" begin="7200.7" end="10800.7" vehsPerHour="172" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_03" begin="7200.77" end="10800.77" vehsPerHour="33" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r4_180806_03" begin="7200.91" end="10800.91" vehsPerHour="3" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_03" begin="7200.98" end="10800.98" vehsPerHour="4" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_03" begin="7201.05" end="10801.05" vehsPerHour="33" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_03" begin="7201.12" end="10801.12" vehsPerHour="129" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_03" begin="7201.19" end="10801.19" vehsPerHour="35" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_03" begin="7201.26" end="10801.26" vehsPerHour="3" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_04" begin="10800.07" end="14400.07" vehsPerHour="179" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_04" begin="10800.14" end="14400.14" vehsPerHour="37" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_04" begin="10800.21" end="14400.21" vehsPerHour="2" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_04" begin="10800.28" end="14400.28" vehsPerHour="2" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_04" begin="10800.35" end="14400.35" vehsPerHour="5" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_04" begin="10800.42" end="14400.42" vehsPerHour="34" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_04" begin="10800.49" end="14400.49" vehsPerHour="104" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_04" begin="10800.56" end="14400.56" vehsPerHour="17" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_04" begin="10800.63" end="14400.63" vehsPerHour="1" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_04" begin="10800.7" end="14400.7" vehsPerHour="178" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_04" begin="10800.77" end="14400.77" vehsPerHour="43" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r4_180806_04" begin="10800.91" end="14400.91" vehsPerHour="5" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_04" begin="10800.98" end="14400.98" vehsPerHour="1" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_04" begin="10801.05" end="14401.05" vehsPerHour="41" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_04" begin="10801.12" end="14401.12" vehsPerHour="208" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_04" begin="10801.19" end="14401.19" vehsPerHour="55" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_04" begin="10801.26" end="14401.26" vehsPerHour="5" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_05" begin="14400.07" end="18000.07" vehsPerHour="517" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_05" begin="14400.14" end="18000.14" vehsPerHour="57" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_05" begin="14400.21" end="18000.21" vehsPerHour="8" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_05" begin="14400.28" end="18000.28" vehsPerHour="1" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_05" begin="14400.35" end="18000.35" vehsPerHour="5" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_05" begin="14400.42" end="18000.42" vehsPerHour="66" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_05" begin="14400.49" end="18000.49" vehsPerHour="126" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_05" begin="14400.56" end="18000.56" vehsPerHour="37" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_05" begin="14400.63" end="18000.63" vehsPerHour="10" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_05" begin="14400.7" end="18000.7" vehsPerHour="351" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_05" begin="14400.77" end="18000.77" vehsPerHour="88" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_05" begin="14400.84" end="18000.84" vehsPerHour="4" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_05" begin="14400.91" end="18000.91" vehsPerHour="5" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_05" begin="14400.98" end="18000.98" vehsPerHour="6" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_05" begin="14401.05" end="18001.05" vehsPerHour="46" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_05" begin="14401.12" end="18001.12" vehsPerHour="266" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_05" begin="14401.19" end="18001.19" vehsPerHour="68" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_05" begin="14401.26" end="18001.26" vehsPerHour="12" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_06" begin="18000.07" end="21600.07" vehsPerHour="1954" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_06" begin="18000.14" end="21600.14" vehsPerHour="145" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_06" begin="18000.21" end="21600.21" vehsPerHour="26" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_06" begin="18000.28" end="21600.28" vehsPerHour="9" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_06" begin="18000.35" end="21600.35" vehsPerHour="8" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_06" begin="18000.42" end="21600.42" vehsPerHour="100" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_06" begin="18000.49" end="21600.49" vehsPerHour="203" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_06" begin="18000.56" end="21600.56" vehsPerHour="46" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_06" begin="18000.63" end="21600.63" vehsPerHour="24" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_06" begin="18000.7" end="21600.7" vehsPerHour="1166" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_06" begin="18000.77" end="21600.77" vehsPerHour="223" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_06" begin="18000.84" end="21600.84" vehsPerHour="8" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_06" begin="18000.91" end="21600.91" vehsPerHour="13" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_06" begin="18000.98" end="21600.98" vehsPerHour="5" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_06" begin="18001.05" end="21601.05" vehsPerHour="86" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_06" begin="18001.12" end="21601.12" vehsPerHour="322" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_06" begin="18001.19" end="21601.19" vehsPerHour="83" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_06" begin="18001.26" end="21601.26" vehsPerHour="28" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_07" begin="21600.07" end="25200.07" vehsPerHour="4610" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_07" begin="21600.14" end="25200.14" vehsPerHour="417" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_07" begin="21600.21" end="25200.21" vehsPerHour="41" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_07" begin="21600.28" end="25200.28" vehsPerHour="11" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_07" begin="21600.35" end="25200.35" vehsPerHour="12" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_07" begin="21600.42" end="25200.42" vehsPerHour="143" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_07" begin="21600.49" end="25200.49" vehsPerHour="228" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_07" begin="21600.56" end="25200.56" vehsPerHour="63" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_07" begin="21600.63" end="25200.63" vehsPerHour="46" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_07" begin="21600.7" end="25200.7" vehsPerHour="2442" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_07" begin="21600.77" end="25200.77" vehsPerHour="518" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_07" begin="21600.84" end="25200.84" vehsPerHour="16" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_07" begin="21600.91" end="25200.91" vehsPerHour="17" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_07" begin="21600.98" end="25200.98" vehsPerHour="6" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_07" begin="21601.05" end="25201.05" vehsPerHour="142" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_07" begin="21601.12" end="25201.12" vehsPerHour="377" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_07" begin="21601.19" end="25201.19" vehsPerHour="96" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_07" begin="21601.26" end="25201.26" vehsPerHour="55" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_08" begin="25200.07" end="28800.07" vehsPerHour="5920" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_08" begin="25200.14" end="28800.14" vehsPerHour="403" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_08" begin="25200.21" end="28800.21" vehsPerHour="47" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_08" begin="25200.28" end="28800.28" vehsPerHour="16" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_08" begin="25200.35" end="28800.35" vehsPerHour="12" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_08" begin="25200.42" end="28800.42" vehsPerHour="133" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_08" begin="25200.49" end="28800.49" vehsPerHour="175" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_08" begin="25200.56" end="28800.56" vehsPerHour="50" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_08" begin="25200.63" end="28800.63" vehsPerHour="56" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_08" begin="25200.7" end="28800.7" vehsPerHour="3451" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_08" begin="25200.77" end="28800.77" vehsPerHour="431" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_08" begin="25200.84" end="28800.84" vehsPerHour="25" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_08" begin="25200.91" end="28800.91" vehsPerHour="26" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_08" begin="25200.98" end="28800.98" vehsPerHour="12" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_08" begin="25201.05" end="28801.05" vehsPerHour="143" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_08" begin="25201.12" end="28801.12" vehsPerHour="204" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_08" begin="25201.19" end="28801.19" vehsPerHour="72" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_08" begin="25201.26" end="28801.26" vehsPerHour="101" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_09" begin="28800.07" end="32400.07" vehsPerHour="5457" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_09" begin="28800.14" end="32400.14" vehsPerHour="402" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_09" begin="28800.21" end="32400.21" vehsPerHour="53" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_09" begin="28800.28" end="32400.28" vehsPerHour="16" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_09" begin="28800.35" end="32400.35" vehsPerHour="16" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_09" begin="28800.42" end="32400.42" vehsPerHour="141" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_09" begin="28800.49" end="32400.49" vehsPerHour="199" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_09" begin="28800.56" end="32400.56" vehsPerHour="78" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_09" begin="28800.63" end="32400.63" vehsPerHour="65" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_09" begin="28800.7" end="32400.7" vehsPerHour="3570" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_09" begin="28800.77" end="32400.77" vehsPerHour="422" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_09" begin="28800.84" end="32400.84" vehsPerHour="26" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_09" begin="28800.91" end="32400.91" vehsPerHour="21" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_09" begin="28800.98" end="32400.98" vehsPerHour="21" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_09" begin="28801.05" end="32401.05" vehsPerHour="207" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_09" begin="28801.12" end="32401.12" vehsPerHour="229" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_09" begin="28801.19" end="32401.19" vehsPerHour="71" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_09" begin="28801.26" end="32401.26" vehsPerHour="85" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_10" begin="32400.07" end="36000.07" vehsPerHour="4411" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_10" begin="32400.14" end="36000.14" vehsPerHour="391" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_10" begin="32400.21" end="36000.21" vehsPerHour="43" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_10" begin="32400.28" end="36000.28" vehsPerHour="36" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_10" begin="32400.35" end="36000.35" vehsPerHour="26" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_10" begin="32400.42" end="36000.42" vehsPerHour="176" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_10" begin="32400.49" end="36000.49" vehsPerHour="333" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_10" begin="32400.56" end="36000.56" vehsPerHour="93" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_10" begin="32400.63" end="36000.63" vehsPerHour="51" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_10" begin="32400.7" end="36000.7" vehsPerHour="3290" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_10" begin="32400.77" end="36000.77" vehsPerHour="452" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_10" begin="32400.84" end="36000.84" vehsPerHour="20" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_10" begin="32400.91" end="36000.91" vehsPerHour="32" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_10" begin="32400.98" end="36000.98" vehsPerHour="18" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_10" begin="32401.05" end="36001.05" vehsPerHour="171" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_10" begin="32401.12" end="36001.12" vehsPerHour="304" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_10" begin="32401.19" end="36001.19" vehsPerHour="87" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_10" begin="32401.26" end="36001.26" vehsPerHour="60" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_11" begin="36000.07" end="39600.07" vehsPerHour="3442" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_11" begin="36000.14" end="39600.14" vehsPerHour="384" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_11" begin="36000.21" end="39600.21" vehsPerHour="33" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_11" begin="36000.28" end="39600.28" vehsPerHour="33" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_11" begin="36000.35" end="39600.35" vehsPerHour="24" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_11" begin="36000.42" end="39600.42" vehsPerHour="165" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_11" begin="36000.49" end="39600.49" vehsPerHour="380" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_11" begin="36000.56" end="39600.56" vehsPerHour="88" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_11" begin="36000.63" end="39600.63" vehsPerHour="44" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_11" begin="36000.7" end="39600.7" vehsPerHour="2824" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_11" begin="36000.77" end="39600.77" vehsPerHour="451" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_11" begin="36000.84" end="39600.84" vehsPerHour="27" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_11" begin="36000.91" end="39600.91" vehsPerHour="37" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_11" begin="36000.98" end="39600.98" vehsPerHour="12" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_11" begin="36001.05" end="39601.05" vehsPerHour="169" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_11" begin="36001.12" end="39601.12" vehsPerHour="340" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_11" begin="36001.19" end="39601.19" vehsPerHour="96" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_11" begin="36001.26" end="39601.26" vehsPerHour="62" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_12" begin="39600.07" end="43200.07" vehsPerHour="2772" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_12" begin="39600.14" end="43200.14" vehsPerHour="330" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_12" begin="39600.21" end="43200.21" vehsPerHour="25" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_12" begin="39600.28" end="43200.28" vehsPerHour="36" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_12" begin="39600.35" end="43200.35" vehsPerHour="15" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_12" begin="39600.42" end="43200.42" vehsPerHour="172" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_12" begin="39600.49" end="43200.49" vehsPerHour="377" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_12" begin="39600.56" end="43200.56" vehsPerHour="77" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_12" begin="39600.63" end="43200.63" vehsPerHour="44" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_12" begin="39600.7" end="43200.7" vehsPerHour="2889" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_12" begin="39600.77" end="43200.77" vehsPerHour="411" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_12" begin="39600.84" end="43200.84" vehsPerHour="26" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_12" begin="39600.91" end="43200.91" vehsPerHour="29" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_12" begin="39600.98" end="43200.98" vehsPerHour="16" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_12" begin="39601.05" end="43201.05" vehsPerHour="167" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_12" begin="39601.12" end="43201.12" vehsPerHour="321" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_12" begin="39601.19" end="43201.19" vehsPerHour="106" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_12" begin="39601.26" end="43201.26" vehsPerHour="64" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_13" begin="43200.07" end="46800.07" vehsPerHour="2754" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_13" begin="43200.14" end="46800.14" vehsPerHour="317" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_13" begin="43200.21" end="46800.21" vehsPerHour="28" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_13" begin="43200.28" end="46800.28" vehsPerHour="28" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_13" begin="43200.35" end="46800.35" vehsPerHour="13" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_13" begin="43200.42" end="46800.42" vehsPerHour="186" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_13" begin="43200.49" end="46800.49" vehsPerHour="382" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_13" begin="43200.56" end="46800.56" vehsPerHour="89" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_13" begin="43200.63" end="46800.63" vehsPerHour="41" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_13" begin="43200.7" end="46800.7" vehsPerHour="2916" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_13" begin="43200.77" end="46800.77" vehsPerHour="398" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_13" begin="43200.84" end="46800.84" vehsPerHour="31" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_13" begin="43200.91" end="46800.91" vehsPerHour="38" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_13" begin="43200.98" end="46800.98" vehsPerHour="19" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_13" begin="43201.05" end="46801.05" vehsPerHour="180" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_13" begin="43201.12" end="46801.12" vehsPerHour="310" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_13" begin="43201.19" end="46801.19" vehsPerHour="93" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_13" begin="43201.26" end="46801.26" vehsPerHour="60" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_14" begin="46800.07" end="50400.07" vehsPerHour="2758" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_14" begin="46800.14" end="50400.14" vehsPerHour="320" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_14" begin="46800.21" end="50400.21" vehsPerHour="31" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_14" begin="46800.28" end="50400.28" vehsPerHour="23" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_14" begin="46800.35" end="50400.35" vehsPerHour="12" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_14" begin="46800.42" end="50400.42" vehsPerHour="185" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_14" begin="46800.49" end="50400.49" vehsPerHour="377" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_14" begin="46800.56" end="50400.56" vehsPerHour="89" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_14" begin="46800.63" end="50400.63" vehsPerHour="37" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_14" begin="46800.7" end="50400.7" vehsPerHour="3038" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_14" begin="46800.77" end="50400.77" vehsPerHour="363" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_14" begin="46800.84" end="50400.84" vehsPerHour="19" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_14" begin="46800.91" end="50400.91" vehsPerHour="37" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_14" begin="46800.98" end="50400.98" vehsPerHour="17" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_14" begin="46801.05" end="50401.05" vehsPerHour="172" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_14" begin="46801.12" end="50401.12" vehsPerHour="330" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_14" begin="46801.19" end="50401.19" vehsPerHour="87" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_14" begin="46801.26" end="50401.26" vehsPerHour="57" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_15" begin="50400.07" end="54000.07" vehsPerHour="2747" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_15" begin="50400.14" end="54000.14" vehsPerHour="344" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_15" begin="50400.21" end="54000.21" vehsPerHour="20" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_15" begin="50400.28" end="54000.28" vehsPerHour="31" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_15" begin="50400.35" end="54000.35" vehsPerHour="18" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_15" begin="50400.42" end="54000.42" vehsPerHour="188" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_15" begin="50400.49" end="54000.49" vehsPerHour="362" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_15" begin="50400.56" end="54000.56" vehsPerHour="85" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_15" begin="50400.63" end="54000.63" vehsPerHour="53" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_15" begin="50400.7" end="54000.7" vehsPerHour="3395" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_15" begin="50400.77" end="54000.77" vehsPerHour="361" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_15" begin="50400.84" end="54000.84" vehsPerHour="27" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_15" begin="50400.91" end="54000.91" vehsPerHour="34" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_15" begin="50400.98" end="54000.98" vehsPerHour="14" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_15" begin="50401.05" end="54001.05" vehsPerHour="149" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_15" begin="50401.12" end="54001.12" vehsPerHour="303" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_15" begin="50401.19" end="54001.19" vehsPerHour="70" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_15" begin="50401.26" end="54001.26" vehsPerHour="61" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_16" begin="54000.07" end="57600.07" vehsPerHour="2963" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_16" begin="54000.14" end="57600.14" vehsPerHour="364" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_16" begin="54000.21" end="57600.21" vehsPerHour="30" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_16" begin="54000.28" end="57600.28" vehsPerHour="28" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_16" begin="54000.35" end="57600.35" vehsPerHour="12" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_16" begin="54000.42" end="57600.42" vehsPerHour="172" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_16" begin="54000.49" end="57600.49" vehsPerHour="355" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_16" begin="54000.56" end="57600.56" vehsPerHour="90" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_16" begin="54000.63" end="57600.63" vehsPerHour="46" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_16" begin="54000.7" end="57600.7" vehsPerHour="4022" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_16" begin="54000.77" end="57600.77" vehsPerHour="396" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_16" begin="54000.84" end="57600.84" vehsPerHour="36" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_16" begin="54000.91" end="57600.91" vehsPerHour="26" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_16" begin="54000.98" end="57600.98" vehsPerHour="14" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_16" begin="54001.05" end="57601.05" vehsPerHour="138" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_16" begin="54001.12" end="57601.12" vehsPerHour="297" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_16" begin="54001.19" end="57601.19" vehsPerHour="82" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_16" begin="54001.26" end="57601.26" vehsPerHour="64" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_17" begin="57600.07" end="61200.07" vehsPerHour="3405" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_17" begin="57600.14" end="61200.14" vehsPerHour="381" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_17" begin="57600.21" end="61200.21" vehsPerHour="43" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_17" begin="57600.28" end="61200.28" vehsPerHour="23" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_17" begin="57600.35" end="61200.35" vehsPerHour="14" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_17" begin="57600.42" end="61200.42" vehsPerHour="148" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_17" begin="57600.49" end="61200.49" vehsPerHour="289" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_17" begin="57600.56" end="61200.56" vehsPerHour="70" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_17" begin="57600.63" end="61200.63" vehsPerHour="56" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_17" begin="57600.7" end="61200.7" vehsPerHour="4238" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_17" begin="57600.77" end="61200.77" vehsPerHour="374" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_17" begin="57600.84" end="61200.84" vehsPerHour="26" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_17" begin="57600.91" end="61200.91" vehsPerHour="26" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_17" begin="57600.98" end="61200.98" vehsPerHour="22" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_17" begin="57601.05" end="61201.05" vehsPerHour="127" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_17" begin="57601.12" end="61201.12" vehsPerHour="230" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_17" begin="57601.19" end="61201.19" vehsPerHour="75" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_17" begin="57601.26" end="61201.26" vehsPerHour="82" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_18" begin="61200.07" end="64800.07" vehsPerHour="3563" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_18" begin="61200.14" end="64800.14" vehsPerHour="330" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_18" begin="61200.21" end="64800.21" vehsPerHour="40" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_18" begin="61200.28" end="64800.28" vehsPerHour="19" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_18" begin="61200.35" end="64800.35" vehsPerHour="11" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_18" begin="61200.42" end="64800.42" vehsPerHour="113" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_18" begin="61200.49" end="64800.49" vehsPerHour="258" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_18" begin="61200.56" end="64800.56" vehsPerHour="60" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_18" begin="61200.63" end="64800.63" vehsPerHour="41" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_18" begin="61200.7" end="64800.7" vehsPerHour="4972" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_18" begin="61200.77" end="64800.77" vehsPerHour="352" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_18" begin="61200.84" end="64800.84" vehsPerHour="29" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_18" begin="61200.91" end="64800.91" vehsPerHour="32" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_18" begin="61200.98" end="64800.98" vehsPerHour="14" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_18" begin="61201.05" end="64801.05" vehsPerHour="102" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_18" begin="61201.12" end="64801.12" vehsPerHour="257" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_18" begin="61201.19" end="64801.19" vehsPerHour="66" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_18" begin="61201.26" end="64801.26" vehsPerHour="75" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_19" begin="64800.07" end="68400.07" vehsPerHour="3246" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_19" begin="64800.14" end="68400.14" vehsPerHour="328" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_19" begin="64800.21" end="68400.21" vehsPerHour="40" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_19" begin="64800.28" end="68400.28" vehsPerHour="20" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_19" begin="64800.35" end="68400.35" vehsPerHour="9" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_19" begin="64800.42" end="68400.42" vehsPerHour="84" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_19" begin="64800.49" end="68400.49" vehsPerHour="239" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_19" begin="64800.56" end="68400.56" vehsPerHour="65" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_19" begin="64800.63" end="68400.63" vehsPerHour="48" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_19" begin="64800.7" end="68400.7" vehsPerHour="4508" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_19" begin="64800.77" end="68400.77" vehsPerHour="276" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_19" begin="64800.84" end="68400.84" vehsPerHour="34" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_19" begin="64800.91" end="68400.91" vehsPerHour="19" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_19" begin="64800.98" end="68400.98" vehsPerHour="7" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_19" begin="64801.05" end="68401.05" vehsPerHour="73" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_19" begin="64801.12" end="68401.12" vehsPerHour="190" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_19" begin="64801.19" end="68401.19" vehsPerHour="55" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_19" begin="64801.26" end="68401.26" vehsPerHour="51" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_20" begin="68400.07" end="72000.07" vehsPerHour="2136" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_20" begin="68400.14" end="72000.14" vehsPerHour="200" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_20" begin="68400.21" end="72000.21" vehsPerHour="28" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_20" begin="68400.28" end="72000.28" vehsPerHour="15" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_20" begin="68400.35" end="72000.35" vehsPerHour="14" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_20" begin="68400.42" end="72000.42" vehsPerHour="71" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_20" begin="68400.49" end="72000.49" vehsPerHour="212" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_20" begin="68400.56" end="72000.56" vehsPerHour="81" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_20" begin="68400.63" end="72000.63" vehsPerHour="29" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_20" begin="68400.7" end="72000.7" vehsPerHour="3124" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_20" begin="68400.77" end="72000.77" vehsPerHour="211" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_20" begin="68400.84" end="72000.84" vehsPerHour="27" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_20" begin="68400.91" end="72000.91" vehsPerHour="12" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_20" begin="68400.98" end="72000.98" vehsPerHour="12" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_20" begin="68401.05" end="72001.05" vehsPerHour="60" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_20" begin="68401.12" end="72001.12" vehsPerHour="149" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_20" begin="68401.19" end="72001.19" vehsPerHour="54" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_20" begin="68401.26" end="72001.26" vehsPerHour="43" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_21" begin="72000.07" end="75600.07" vehsPerHour="1392" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_21" begin="72000.14" end="75600.14" vehsPerHour="137" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_21" begin="72000.21" end="75600.21" vehsPerHour="24" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_21" begin="72000.28" end="75600.28" vehsPerHour="14" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_21" begin="72000.35" end="75600.35" vehsPerHour="8" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_21" begin="72000.42" end="75600.42" vehsPerHour="62" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_21" begin="72000.49" end="75600.49" vehsPerHour="162" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_21" begin="72000.56" end="75600.56" vehsPerHour="82" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_21" begin="72000.63" end="75600.63" vehsPerHour="19" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_21" begin="72000.7" end="75600.7" vehsPerHour="2181" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_21" begin="72000.77" end="75600.77" vehsPerHour="174" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_21" begin="72000.84" end="75600.84" vehsPerHour="20" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_21" begin="72000.91" end="75600.91" vehsPerHour="15" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_21" begin="72000.98" end="75600.98" vehsPerHour="10" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_21" begin="72001.05" end="75601.05" vehsPerHour="52" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_21" begin="72001.12" end="75601.12" vehsPerHour="136" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_21" begin="72001.19" end="75601.19" vehsPerHour="51" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_21" begin="72001.26" end="75601.26" vehsPerHour="35" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_22" begin="75600.07" end="79200.07" vehsPerHour="1088" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_22" begin="75600.14" end="79200.14" vehsPerHour="117" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_22" begin="75600.21" end="79200.21" vehsPerHour="9" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_22" begin="75600.28" end="79200.28" vehsPerHour="8" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_22" begin="75600.35" end="79200.35" vehsPerHour="8" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_22" begin="75600.42" end="79200.42" vehsPerHour="47" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_22" begin="75600.49" end="79200.49" vehsPerHour="136" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_22" begin="75600.56" end="79200.56" vehsPerHour="96" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_22" begin="75600.63" end="79200.63" vehsPerHour="14" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_22" begin="75600.7" end="79200.7" vehsPerHour="1485" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_22" begin="75600.77" end="79200.77" vehsPerHour="115" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_22" begin="75600.84" end="79200.84" vehsPerHour="10" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_22" begin="75600.91" end="79200.91" vehsPerHour="6" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_22" begin="75600.98" end="79200.98" vehsPerHour="8" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_22" begin="75601.05" end="79201.05" vehsPerHour="48" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_22" begin="75601.12" end="79201.12" vehsPerHour="113" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_22" begin="75601.19" end="79201.19" vehsPerHour="49" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_22" begin="75601.26" end="79201.26" vehsPerHour="22" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_23" begin="79200.07" end="82800.07" vehsPerHour="785" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_23" begin="79200.14" end="82800.14" vehsPerHour="115" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_23" begin="79200.21" end="82800.21" vehsPerHour="12" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_23" begin="79200.28" end="82800.28" vehsPerHour="5" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_23" begin="79200.35" end="82800.35" vehsPerHour="5" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_23" begin="79200.42" end="82800.42" vehsPerHour="38" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_23" begin="79200.49" end="82800.49" vehsPerHour="132" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_23" begin="79200.56" end="82800.56" vehsPerHour="111" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_23" begin="79200.63" end="82800.63" vehsPerHour="13" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_23" begin="79200.7" end="82800.7" vehsPerHour="1194" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_23" begin="79200.77" end="82800.77" vehsPerHour="89" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_23" begin="79200.84" end="82800.84" vehsPerHour="13" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_23" begin="79200.91" end="82800.91" vehsPerHour="7" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_23" begin="79200.98" end="82800.98" vehsPerHour="5" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_23" begin="79201.05" end="82801.05" vehsPerHour="27" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_23" begin="79201.12" end="82801.12" vehsPerHour="96" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_23" begin="79201.19" end="82801.19" vehsPerHour="52" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_23" begin="79201.26" end="82801.26" vehsPerHour="17" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+
+
+	<flow id="s2n_r1_180806_24" begin="82800.07" end="86400.07" vehsPerHour="450" type="pkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r2_180806_24" begin="82800.14" end="86400.14" vehsPerHour="74" type="lieferwagen_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r3_180806_24" begin="82800.21" end="86400.21" vehsPerHour="11" type="motorraedder" route="s2n"/>
+	<flow id="s2n_r4_180806_24" begin="82800.28" end="86400.28" vehsPerHour="7" type="pkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r5_180806_24" begin="82800.35" end="86400.35" vehsPerHour="5" type="busse" route="s2n"/>
+	<flow id="s2n_r6_180806_24" begin="82800.42" end="86400.42" vehsPerHour="42" type="lkw_ohne_anhaenger" route="s2n"/>
+	<flow id="s2n_r7_180806_24" begin="82800.49" end="86400.49" vehsPerHour="145" type="sattelkraftfahrzeuge" route="s2n"/>
+	<flow id="s2n_r8_180806_24" begin="82800.56" end="86400.56" vehsPerHour="128" type="lkw_mit_anhaenger" route="s2n"/>
+	<flow id="s2n_r9_180806_24" begin="82800.63" end="86400.63" vehsPerHour="6" type="nicht_klassifizierbare_Kfz" route="s2n"/>
+	<flow id="n2s_r1_180806_24" begin="82800.7" end="86400.7" vehsPerHour="804" type="pkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r2_180806_24" begin="82800.77" end="86400.77" vehsPerHour="97" type="lieferwagen_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r3_180806_24" begin="82800.84" end="86400.84" vehsPerHour="10" type="motorraedder" route="n2s"/>
+	<flow id="n2s_r4_180806_24" begin="82800.91" end="86400.91" vehsPerHour="4" type="pkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r5_180806_24" begin="82800.98" end="86400.98" vehsPerHour="3" type="busse" route="n2s"/>
+	<flow id="n2s_r6_180806_24" begin="82801.05" end="86401.05" vehsPerHour="38" type="lkw_ohne_anhaenger" route="n2s"/>
+	<flow id="n2s_r7_180806_24" begin="82801.12" end="86401.12" vehsPerHour="87" type="sattelkraftfahrzeuge" route="n2s"/>
+	<flow id="n2s_r8_180806_24" begin="82801.19" end="86401.19" vehsPerHour="58" type="lkw_mit_anhaenger" route="n2s"/>
+	<flow id="n2s_r9_180806_24" begin="82801.26" end="86401.26" vehsPerHour="13" type="nicht_klassifizierbare_Kfz" route="n2s"/>
+</routes>

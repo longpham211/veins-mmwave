@@ -1,0 +1,13 @@
+#
+# Usage:
+#    make -f makemakefiles
+# or, for Microsoft Visual C++:
+#    nmake -f makemakefiles MMOPT=-n
+#
+
+MAKEMAKE=opp_makemake $(MMOPT)
+
+VEINS_PROJ=../veins-5.0/veins-veins-5.0
+
+all:
+	cd src && $(MAKEMAKE) --make-so -f --deep -o veins-mmwave -O out -pVEINS_MMWAVE -KVEINS_PROJ=../../veins-5.0/veins-veins-5.0 -DVEINS_IMPORT -I. -I. -I$$\(VEINS_PROJ\)/src -L$$\(VEINS_PROJ\)/src -lveins$$\(D\)

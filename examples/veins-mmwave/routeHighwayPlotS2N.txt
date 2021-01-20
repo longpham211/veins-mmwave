@@ -1,0 +1,216 @@
+VehicleType;Hour;Count
+Passenger car;1 a.m.;263
+Light commercial vehicle;1 a.m.;28
+Motorcycle;1 a.m.;2
+Passenger car with trailer;1 a.m.;7
+Bus;1 a.m.;5
+Truck without trailer;1 a.m.;28
+Semi-trailer truck;1 a.m.;61
+Truck with trailer;1 a.m.;22
+Unclassified vehicle;1 a.m.;3
+Passenger car;2 a.m.;141
+Light commercial vehicle;2 a.m.;26
+Passenger car with trailer;2 a.m.;4
+Bus;2 a.m.;4
+Truck without trailer;2 a.m.;16
+Semi-trailer truck;2 a.m.;62
+Truck with trailer;2 a.m.;14
+Unclassified vehicle;2 a.m.;5
+Passenger car;3 a.m.;120
+Light commercial vehicle;3 a.m.;23
+Motorcycle;3 a.m.;2
+Passenger car with trailer;3 a.m.;2
+Bus;3 a.m.;4
+Truck without trailer;3 a.m.;26
+Semi-trailer truck;3 a.m.;59
+Truck with trailer;3 a.m.;16
+Unclassified vehicle;3 a.m.;2
+Passenger car;4 a.m.;179
+Light commercial vehicle;4 a.m.;37
+Motorcycle;4 a.m.;2
+Passenger car with trailer;4 a.m.;2
+Bus;4 a.m.;5
+Truck without trailer;4 a.m.;34
+Semi-trailer truck;4 a.m.;104
+Truck with trailer;4 a.m.;17
+Unclassified vehicle;4 a.m.;1
+Passenger car;5 a.m.;517
+Light commercial vehicle;5 a.m.;57
+Motorcycle;5 a.m.;8
+Passenger car with trailer;5 a.m.;1
+Bus;5 a.m.;5
+Truck without trailer;5 a.m.;66
+Semi-trailer truck;5 a.m.;126
+Truck with trailer;5 a.m.;37
+Unclassified vehicle;5 a.m.;10
+Passenger car;6 a.m.;1954
+Light commercial vehicle;6 a.m.;145
+Motorcycle;6 a.m.;26
+Passenger car with trailer;6 a.m.;9
+Bus;6 a.m.;8
+Truck without trailer;6 a.m.;100
+Semi-trailer truck;6 a.m.;203
+Truck with trailer;6 a.m.;46
+Unclassified vehicle;6 a.m.;24
+Passenger car;7 a.m.;4610
+Light commercial vehicle;7 a.m.;417
+Motorcycle;7 a.m.;41
+Passenger car with trailer;7 a.m.;11
+Bus;7 a.m.;12
+Truck without trailer;7 a.m.;143
+Semi-trailer truck;7 a.m.;228
+Truck with trailer;7 a.m.;63
+Unclassified vehicle;7 a.m.;46
+Passenger car;8 a.m.;5920
+Light commercial vehicle;8 a.m.;403
+Motorcycle;8 a.m.;47
+Passenger car with trailer;8 a.m.;16
+Bus;8 a.m.;12
+Truck without trailer;8 a.m.;133
+Semi-trailer truck;8 a.m.;175
+Truck with trailer;8 a.m.;50
+Unclassified vehicle;8 a.m.;56
+Passenger car;9 a.m.;5457
+Light commercial vehicle;9 a.m.;402
+Motorcycle;9 a.m.;53
+Passenger car with trailer;9 a.m.;16
+Bus;9 a.m.;16
+Truck without trailer;9 a.m.;141
+Semi-trailer truck;9 a.m.;199
+Truck with trailer;9 a.m.;78
+Unclassified vehicle;9 a.m.;65
+Passenger car;10 a.m.;4411
+Light commercial vehicle;10 a.m.;391
+Motorcycle;10 a.m.;43
+Passenger car with trailer;10 a.m.;36
+Bus;10 a.m.;26
+Truck without trailer;10 a.m.;176
+Semi-trailer truck;10 a.m.;333
+Truck with trailer;10 a.m.;93
+Unclassified vehicle;10 a.m.;51
+Passenger car;11 a.m.;3442
+Light commercial vehicle;11 a.m.;384
+Motorcycle;11 a.m.;33
+Passenger car with trailer;11 a.m.;33
+Bus;11 a.m.;24
+Truck without trailer;11 a.m.;165
+Semi-trailer truck;11 a.m.;380
+Truck with trailer;11 a.m.;88
+Unclassified vehicle;11 a.m.;44
+Passenger car;12 p.m.;2772
+Light commercial vehicle;12 p.m.;330
+Motorcycle;12 p.m.;25
+Passenger car with trailer;12 p.m.;36
+Bus;12 p.m.;15
+Truck without trailer;12 p.m.;172
+Semi-trailer truck;12 p.m.;377
+Truck with trailer;12 p.m.;77
+Unclassified vehicle;12 p.m.;44
+Passenger car;1 p.m.;2754
+Light commercial vehicle;1 p.m.;317
+Motorcycle;1 p.m.;28
+Passenger car with trailer;1 p.m.;28
+Bus;1 p.m.;13
+Truck without trailer;1 p.m.;186
+Semi-trailer truck;1 p.m.;382
+Truck with trailer;1 p.m.;89
+Unclassified vehicle;1 p.m.;41
+Passenger car;2 p.m.;2758
+Light commercial vehicle;2 p.m.;320
+Motorcycle;2 p.m.;31
+Passenger car with trailer;2 p.m.;23
+Bus;2 p.m.;12
+Truck without trailer;2 p.m.;185
+Semi-trailer truck;2 p.m.;377
+Truck with trailer;2 p.m.;89
+Unclassified vehicle;2 p.m.;37
+Passenger car;3 p.m.;2747
+Light commercial vehicle;3 p.m.;344
+Motorcycle;3 p.m.;20
+Passenger car with trailer;3 p.m.;31
+Bus;3 p.m.;18
+Truck without trailer;3 p.m.;188
+Semi-trailer truck;3 p.m.;362
+Truck with trailer;3 p.m.;85
+Unclassified vehicle;3 p.m.;53
+Passenger car;4 p.m.;2963
+Light commercial vehicle;4 p.m.;364
+Motorcycle;4 p.m.;30
+Passenger car with trailer;4 p.m.;28
+Bus;4 p.m.;12
+Truck without trailer;4 p.m.;172
+Semi-trailer truck;4 p.m.;355
+Truck with trailer;4 p.m.;90
+Unclassified vehicle;4 p.m.;46
+Passenger car;5 p.m.;3405
+Light commercial vehicle;5 p.m.;381
+Motorcycle;5 p.m.;43
+Passenger car with trailer;5 p.m.;23
+Bus;5 p.m.;14
+Truck without trailer;5 p.m.;148
+Semi-trailer truck;5 p.m.;289
+Truck with trailer;5 p.m.;70
+Unclassified vehicle;5 p.m.;56
+Passenger car;6 p.m.;3563
+Light commercial vehicle;6 p.m.;330
+Motorcycle;6 p.m.;40
+Passenger car with trailer;6 p.m.;19
+Bus;6 p.m.;11
+Truck without trailer;6 p.m.;113
+Semi-trailer truck;6 p.m.;258
+Truck with trailer;6 p.m.;60
+Unclassified vehicle;6 p.m.;41
+Passenger car;7 p.m.;3246
+Light commercial vehicle;7 p.m.;328
+Motorcycle;7 p.m.;40
+Passenger car with trailer;7 p.m.;20
+Bus;7 p.m.;9
+Truck without trailer;7 p.m.;84
+Semi-trailer truck;7 p.m.;239
+Truck with trailer;7 p.m.;65
+Unclassified vehicle;7 p.m.;48
+Passenger car;8 p.m.;2136
+Light commercial vehicle;8 p.m.;200
+Motorcycle;8 p.m.;28
+Passenger car with trailer;8 p.m.;15
+Bus;8 p.m.;14
+Truck without trailer;8 p.m.;71
+Semi-trailer truck;8 p.m.;212
+Truck with trailer;8 p.m.;81
+Unclassified vehicle;8 p.m.;29
+Passenger car;9 p.m.;1392
+Light commercial vehicle;9 p.m.;137
+Motorcycle;9 p.m.;24
+Passenger car with trailer;9 p.m.;14
+Bus;9 p.m.;8
+Truck without trailer;9 p.m.;62
+Semi-trailer truck;9 p.m.;162
+Truck with trailer;9 p.m.;82
+Unclassified vehicle;9 p.m.;19
+Passenger car;10 p.m.;1088
+Light commercial vehicle;10 p.m.;117
+Motorcycle;10 p.m.;9
+Passenger car with trailer;10 p.m.;8
+Bus;10 p.m.;8
+Truck without trailer;10 p.m.;47
+Semi-trailer truck;10 p.m.;136
+Truck with trailer;10 p.m.;96
+Unclassified vehicle;10 p.m.;14
+Passenger car;11 p.m.;785
+Light commercial vehicle;11 p.m.;115
+Motorcycle;11 p.m.;12
+Passenger car with trailer;11 p.m.;5
+Bus;11 p.m.;5
+Truck without trailer;11 p.m.;38
+Semi-trailer truck;11 p.m.;132
+Truck with trailer;11 p.m.;111
+Unclassified vehicle;11 p.m.;13
+Passenger car;12 a.m.;450
+Light commercial vehicle;12 a.m.;74
+Motorcycle;12 a.m.;11
+Passenger car with trailer;12 a.m.;7
+Bus;12 a.m.;5
+Truck without trailer;12 a.m.;42
+Semi-trailer truck;12 a.m.;145
+Truck with trailer;12 a.m.;128
+Unclassified vehicle;12 a.m.;6

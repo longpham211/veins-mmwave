@@ -1,0 +1,97 @@
+<routes>
+   	<vType id="pkw_ohne_anhaenger" departSpeed="random" accel="6" decel="4.5" sigma="0.5" length="5.091" width="1.902" height="1.538" minGap="2.5" maxSpeed="19.44" guiShape="passenger"/>
+	
+	<route id="route5" edges="-120484533#4 -120484533#3 -120484533#2 -120484533#1 -120484533#0 -256798906#5 -256798906#4 -256798906#3 -256798906#2 -256798906#1 -256798906#0 256798907#0 256798907#1 746403225#0 700236089#2 700236089#3 255729743#0 255729743#1 255729743#2 -150032770#11 -150032770#10 -150032770#9 -150032770#8 -150032770#7 -150032770#5 -150032770#4 -150032770#1 -150032770#0 103958941 4212051#0 4212051#2 4212051#3 4212051#5 700236085 700236098#0 700236097 249682388#0 249682388#1 140097187#1 140097187#2 524017467 140097189#2 140097189#4 140097189#5"/>
+   	<route id="route7" edges="-150041563#1 -150041563#0 150041551#0 150041551#1 150041551#2 56163443#1 700440137 700440134 4209741#2 4209741#3 715913363#0 715913363#1 715913363#2 715913363#3 715913363#4 700440148 378479743#0 378479743#1 378479743#4 378479743#5 378479743#6 700236093 44973978 4019053#2 150032770#0 150032770#1 150032770#4 150032770#5 150032770#7 150032770#8 150032770#9 150032770#10 150032770#11 150032770#12 -255729743#1 -255729743#0 -700236089#3 -700236089#2 35575436#2 35575436#3 256798906#0 256798906#1 256798906#2 256798906#3 256798906#4 256798906#5 120484533#0 120484533#1 120484533#2 120484533#3 120484533#4"/>
+    <route id="route9" edges="60835267#0 148749640 4209738#0 4209738#1 4209738#2 4209738#3 4209738#4 150041582#1 492925920#0 492925920#1 395456768 395456769#0 395456769#1 492925919 4209740#1 449551311 44973978 4212051#0 4212051#2 4212051#3 4212051#5 700236085 700236098#0 700236097 249682388#0 249682388#1 140097187#1 140097187#2 524017467 140097189#2 140097189#4 140097189#5"/> 
+   
+   	
+	<flow id="r5_200608_1" begin="0.07" end="3600.07" vehsPerHour="39" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_1" begin="0.14" end="3600.14" vehsPerHour="27" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_1" begin="0.21" end="3600.21" vehsPerHour="154" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_2" begin="3600.07" end="7200.07" vehsPerHour="20" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_2" begin="3600.14" end="7200.14" vehsPerHour="7" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_2" begin="3600.21" end="7200.21" vehsPerHour="55" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_3" begin="7200.07" end="10800.07" vehsPerHour="14" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_3" begin="7200.14" end="10800.14" vehsPerHour="5" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_3" begin="7200.21" end="10800.21" vehsPerHour="39" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_4" begin="10800.07" end="14400.07" vehsPerHour="10" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_4" begin="10800.14" end="14400.14" vehsPerHour="7" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_4" begin="10800.21" end="14400.21" vehsPerHour="116" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_5" begin="14400.07" end="18000.07" vehsPerHour="18" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_5" begin="14400.14" end="18000.14" vehsPerHour="15" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_5" begin="14400.21" end="18000.21" vehsPerHour="630" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_6" begin="18000.07" end="21600.07" vehsPerHour="109" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_6" begin="18000.14" end="21600.14" vehsPerHour="63" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_6" begin="18000.21" end="21600.21" vehsPerHour="481" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_7" begin="21600.07" end="25200.07" vehsPerHour="281" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_7" begin="21600.14" end="25200.14" vehsPerHour="140" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_7" begin="21600.21" end="25200.21" vehsPerHour="981" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_8" begin="25200.07" end="28800.07" vehsPerHour="512" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_8" begin="25200.14" end="28800.14" vehsPerHour="269" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_8" begin="25200.21" end="28800.21" vehsPerHour="1172" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_9" begin="28800.07" end="32400.07" vehsPerHour="556" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_9" begin="28800.14" end="32400.14" vehsPerHour="259" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_9" begin="28800.21" end="32400.21" vehsPerHour="1194" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_10" begin="32400.07" end="36000.07" vehsPerHour="509" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_10" begin="32400.14" end="36000.14" vehsPerHour="236" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_10" begin="32400.21" end="36000.21" vehsPerHour="1060" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_11" begin="36000.07" end="39600.07" vehsPerHour="481" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_11" begin="36000.14" end="39600.14" vehsPerHour="276" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_11" begin="36000.21" end="39600.21" vehsPerHour="1042" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_12" begin="39600.07" end="43200.07" vehsPerHour="501" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_12" begin="39600.14" end="43200.14" vehsPerHour="282" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_12" begin="39600.21" end="43200.21" vehsPerHour="1010" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_13" begin="43200.07" end="46800.07" vehsPerHour="472" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_13" begin="43200.14" end="46800.14" vehsPerHour="281" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_13" begin="43200.21" end="46800.21" vehsPerHour="1046" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_14" begin="46800.07" end="50400.07" vehsPerHour="484" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_14" begin="46800.14" end="50400.14" vehsPerHour="297" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_14" begin="46800.21" end="50400.21" vehsPerHour="1145" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_15" begin="50400.07" end="54000.07" vehsPerHour="493" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_15" begin="50400.14" end="54000.14" vehsPerHour="287" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_15" begin="50400.21" end="54000.21" vehsPerHour="1082" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_16" begin="54000.07" end="57600.07" vehsPerHour="540" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_16" begin="54000.14" end="57600.14" vehsPerHour="299" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_16" begin="54000.21" end="57600.21" vehsPerHour="1089" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_17" begin="57600.07" end="61200.07" vehsPerHour="513" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_17" begin="57600.14" end="61200.14" vehsPerHour="325" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_17" begin="57600.21" end="61200.21" vehsPerHour="987" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_18" begin="61200.07" end="64800.07" vehsPerHour="396" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_18" begin="61200.14" end="64800.14" vehsPerHour="307" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_18" begin="61200.21" end="64800.21" vehsPerHour="876" type="pkw_ohne_anhaenger" route="route9"/>
+	
+	<flow id="r5_200608_19" begin="64800.07" end="68400.07" vehsPerHour="365" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_19" begin="64800.14" end="68400.14" vehsPerHour="287" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_19" begin="64800.21" end="68400.21" vehsPerHour="792" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_20" begin="68400.07" end="72000.07" vehsPerHour="260" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_20" begin="68400.14" end="72000.14" vehsPerHour="238" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_20" begin="68400.21" end="72000.21" vehsPerHour="606" type="pkw_ohne_anhaenger" route="route9"/>
+
+	<flow id="r5_200608_21" begin="72000.07" end="75600.07" vehsPerHour="229" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_21" begin="72000.14" end="75600.14" vehsPerHour="184" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_21" begin="72000.21" end="75600.21" vehsPerHour="498" type="pkw_ohne_anhaenger" route="route9"/>
+	
+	<flow id="r5_200608_22" begin="75600.07" end="79200.07" vehsPerHour="169" type="pkw_ohne_anhaenger" route="route5"/>
+	<flow id="r7_200608_22" begin="75600.14" end="79200.14" vehsPerHour="135" type="pkw_ohne_anhaenger" route="route7"/>
+	<flow id="r9_200608_22" begin="75600.21" end="79200.21" vehsPerHour="338" type="pkw_ohne_anhaenger" route="route9"/>
+	
+</routes>
